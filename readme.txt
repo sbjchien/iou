@@ -6,7 +6,7 @@ This webapp was created by Jeffrey Chien.
 =======================
 Todo
 =======================
-- Keep the table sorted by date even as you move entries from the open table to the closed table.
+1. Keep the table sorted by date even as you move entries from the open table to the closed table.
 =======================
 Features
 =======================
