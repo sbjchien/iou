@@ -4,6 +4,10 @@
 This is an IOU Tracker that makes use of GWT, Spring, and MyBatis.
 This webapp was created by Jeffrey Chien.
 =======================
+Todo
+=======================
+- Keep the table sorted by date even as you move entries from the open table to the closed table.
+=======================
 Features
 =======================
 1. List of IOUs (i.e. covering one person/ multiple people 
