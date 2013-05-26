@@ -1,0 +1,2 @@
+serviceClass: com.jchien.iou.client.AccountService
+path: DC9AE49D95920C6E598C9E851A5E5032.gwt.rpc

@@ -1,0 +1,23 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+.tableHeader {
+	background-color: #2062B8;
+	color: white;
+}
+
+.iouTable {
+	border: 1px solid black;
+	padding: 2px;
+	width: 500px;
+	margin-right: 100px;
+}
+
+.errorField {
+	border: 1px solid #FF0000 !important;
+}
+
+.errorMessage {
+	color: red;
+}

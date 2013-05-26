@@ -1,0 +1,2 @@
+serviceClass: com.jchien.iou.client.EntryService
+path: 6265E0F475DC029992E9156C5BDC1A51.gwt.rpc

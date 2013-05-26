@@ -1,0 +1,2 @@
+serviceClass: com.jchien.iou.client.GreetingService
+path: 3B856217CBBB73077687F3CF8E8C74E1.gwt.rpc

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jchien.iou.server.AccountMapper">
+	<cache />
+	<!-- Attempts to Log In -->
+	<select id="getUser" parameterType="String" resultType="com.jchien.iou.shared.User">
+		SELECT
+		u.username, u.password, u.name, u.id
+		FROM users u
+		WHERE
+		u.username=#{username};
+	</select>
+
+
+	<!-- Create an account -->
+	<insert id="createAccount" parameterType="com.jchien.iou.shared.User" >
+		INSERT INTO users
+		(username, password, name) VALUES (#{username},#{password},#{name});
+	</insert>
+
+</mapper>
