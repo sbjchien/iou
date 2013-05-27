@@ -7,6 +7,7 @@ This webapp was created by Jeffrey Chien.
 Todo
 =======================
 1. Keep the table sorted by date even as you move entries from the open table to the closed table.
+2. Use XML/UiBinder for layout.
 =======================
 Features
 =======================
